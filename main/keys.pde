@@ -1,8 +1,13 @@
 boolean showHelpText=true;
   void showHelp() {
     fill(yellow,50); rect(0,0,height,height); pushMatrix(); translate(20,20); fill(0);
-        text("                    MESH VIEWER written by Jarek Rossignac in June 2006, updated in February 2008",0,0); translate(0,20);
+        text("UI helper",0,0); translate(0,20);
         translate(0,20);
+        text("Newly implemented by Jiaxi",0,0); translate(0,20);
+        text("Hover the mouse over an arbitrary point on the model and press '.' to generate a geodesic path from it. ",0,0); translate(0,20);
+        text("Press 'k' to show/hide disk",0,0); translate(0,20);
+        text("   ",0,0); translate(0,20);
+        text("from base code written by Jarek Rossignac in June 2006, updated in February 2008",0,0); translate(0,20);
         text("Click in this window to start. Press SPACE at any time to show/hide this help text",0,0); translate(0,20);
         text("'k:action' means press key 'k' to perform the 'action' ",0,0); translate(0,20);
         text("'*k:action' means click(&drag) the mouse while holding the key 'k' to perform 'action' ",0,0); translate(0,20);
