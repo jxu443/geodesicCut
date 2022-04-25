@@ -24,6 +24,6 @@ screen recordnig of the final result
 
 ## Resources
 
-base code: CS6491 from Gatech
+base code: CS6491 Project 3 with Dr.Jarek Rossignac from Gatech
 
 
